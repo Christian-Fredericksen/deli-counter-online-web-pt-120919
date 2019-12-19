@@ -16,7 +16,7 @@ end
 
 
 def take_a_number(line, name)
-  # line << "#{name}"
+   line << "#{name}"
   if line.length == 0 
     puts "Welcome, #{name}. You are number #{line.length} in line."
   else #if line.length > 0
