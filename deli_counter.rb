@@ -5,7 +5,7 @@ def line(customers)
 #binding.pry
   if customers.length ==  0  
     puts "The line is currently empty."
-  elsif customers.length > 0 
+  else 
     how_busy_are_we = "The line is currently:"
     customers.each_with_index do |person, place_in_line|
       how_busy_are_we << " #{place_in_line+1}. #{person}"
